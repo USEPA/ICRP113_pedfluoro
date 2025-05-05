@@ -1,4 +1,4 @@
-# ICRPTG113_ped_fluoro
+# ICRP Task Group 113 Pediatric Fluoroscopy
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
@@ -12,12 +12,15 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+> [!CAUTION]
+> **Information contained in this repository is considered raw, partial and unvalidated. Material is DRAFT/DELIBERATIVE.**
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#task-group-113-pediatric-fluoro-overview">ICRP Task Group 113 Pediatric Fluoro Overview</a>
+      <a href="#Overview">Overview</a>
       <ul>
         <li><a href="#software-used">Software Used</a></li>
         <li><a href="#paediatric-computational-reference-phantoms">Computational Phantoms</a></li>
@@ -39,7 +42,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Task Group 113 Pediatric Fluoro Overview
+## Overview
 
 The primary dosimetric data on exposures in X-ray imaging procedures are measurements of entrance air kerma (for radiography), air kerma-area products (for diagnostic fluoroscopy), and CTDIvol and DLP (for computed tomography, CT). Such dose metrics are used to set Diagnostic Reference Levels that allow comparisons of doses received from the same procedure in different hospitals and help ensure that exposures are the minimum required to produce appropriate quality of images. However, effective dose is also used extensively in diagnostic x-ray imaging to provide a detriment-related dose quantity to inform clinical judgements, including the comparison of different x-ray procedures, and comparisons of imaging practice across different hospitals and medical facilities. For many years, the ICRP has produced, through its joint C2/C3 Task Group 36, reference dose coefficients for common diagnostic nuclear medicine procedures. However, ICRP has not provided reference dose coefficients for X-ray imaging procedures and consequently different methodologies are used to convert measurements to estimates of effective dose or some surrogate of effective dose. These calculations necessarily rely on disparate published data based on the use of older stylized hermaphrodite phantoms that are not in alignment with the most recent ICRP reference phantoms. In addition, different computational methods for radiation transport have been used to report organ doses from which the effective dose is computed. Those responsible for such calculations and their interpretation would welcome the availability of ICRP reference organ and effective dose coefficients.
 
@@ -152,6 +155,7 @@ Discuss the QA checks with JAEA
 ## Contact
 
 David Borrego - borrego.david@epa.gov
+
 Wyatt W. Smither - wyattsmither@ufl.edu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
