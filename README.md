@@ -12,7 +12,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -20,33 +19,23 @@
     <li>
       <a href="#task-group-113-pediatric-fluoro-overview">ICRP Task Group 113 Pediatric Fluoro Overview</a>
       <ul>
-        <li><a href="#codes-used">Codes Used</a></li>
+        <li><a href="#software-used">Software Used</a></li>
         <li><a href="#paediatric-computational-reference-phantoms">Computational Phantoms</a></li>
       </ul>
     </li>
     <li>
-      <a href="#input-file-generation">Input File Generation</a>
+      <a href="#code-development-and-analysis">Code Development and Analysis</a>
       <ul>
         <li><a href="#primary-script">Primary Script</a></li>
         <li><a href="#dependencies">Dependencies</a></li>
-        <li><a href="#format-of-generated-input-files">Format of Generated Input Files</a></li>
+        <li><a href="#input-files">Input Files</a></li>
+        <li><a href="#output-files">Output Files</a></li>
+        <li><a href="quality-assurance-efforts">Qualilty Assurance Efforts</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#output-file-processing">Output File Processing</a></li>
-      <ul>
-        <li><a href="#primary-script">Primary Script</a></li>
-        <li><a href="#dependencies">Dependencies</a></li>
-        <li><a href="#format-of-generated-input-files">Format of Generated Input Files</a></li>
-      </ul>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -82,14 +71,12 @@ Members of the paediatric diagnostic fluoroscopy:
 
 
 
-### Codes Used
+### Software Used
 
 This section lists the programs and codes used to compute these dose coefficients.
 
 * [![PHITS][PHITS.js]][PHITS-url]
 * [![MATLAB][MATLAB.js]][MATLAB-url]
-
-
 
 ### Paediatric Computational Reference Phantoms
 
@@ -101,10 +88,9 @@ The ICRP paediatric computational reference phantoms, as published in ICRP Publi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 
-## Input File Generation
+## Code Development and Analysis
 
 ### Primary Script
 
@@ -138,7 +124,7 @@ This Excel sheet has the parameters for each procedure's fields that _input_gene
 * Disease
 
 
-### Format of Generated Input Files
+### Input Files
 
 Input files are generated using a unique naming convention in a heirarchical folder structure. Each input file is housed within its own folder with the folder name corresponding to the PHITS input file name. An example path, for an initial main folder name of 'vcug_abnormal', and an abnormal VCUG examination would be:
 
@@ -151,48 +137,24 @@ An explanation for each portion:
 * 110 - peak tube potentional (in kV)
 * 62 - average spectrum energy (in keV)
 
-## Output File Processing
+### Output Files
 
 Discuss how the output files were post-processed
 
-
-### Quality Assurance Checks
+### Quality Assurance Efforts
 
 Discuss the QA checks with JAEA
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- USAGE EXAMPLES -->
-## Dose Coefficients Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Contact
 
+David Borrego - borrego.david@epa.gov
 Wyatt W. Smither - wyattsmither@ufl.edu
 
-Project Link: [https://github.com/wsmither17/ICRPTG113_ped_fluoro](https://github.com/wsmither17/ICRPTG113_ped_fluoro)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
