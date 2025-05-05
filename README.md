@@ -67,7 +67,7 @@ These developments are beyond the mandate of the proposed task group.
 However, a Task C is proposed to compute and compare organ doses in the 10th and 90th body height / weight percentiles for patient populations with the values obtained for the reference individuals under Task B. 
 When patient-specific organ doses (single gender) are weighted by radiation and tissue weighting factors, the result is not the effective dose (which is unfortunately widely reported), and this can be clarified in the report.
 
-This repository contains all files utilized for the paediatric diagnostic fluoroscopy subgroup within ICRP Task Group 113.
+This repository contains the electronic supplements of dose coefficients resulting from the pediatric fluoroscopy work stream of the Task Group 113. Additional details and history of the code development in support of this work are held in a private repository.
 
 Members of the paediatric diagnostic fluoroscopy sub-group:
 - David Borrego, US EPA
@@ -82,20 +82,26 @@ Members of the paediatric diagnostic fluoroscopy sub-group:
 
 This section lists the programs and codes used to compute these dose coefficients.
 
-* [![PHITS][PHITS.js]][PHITS-url]
-* [![MATLAB][MATLAB.js]][MATLAB-url]
+- [![PHITS][PHITS.js]][PHITS-url]
+- [![MATLAB][MATLAB.js]][MATLAB-url]
 
 ### Paediatric Computational Reference Phantoms
 
 The ICRP paediatric computational reference phantoms, as published in ICRP Publication 143, were used and can be in the supplemental materials from the hyperlink below:
 
-* [![ICRP Paediatric Phantoms][P143.js]][P143-url]
+- [![ICRP Paediatric Phantoms][P143.js]][P143-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Code Development and Analysis
+
+> [!NOTE]
+> The codes developed in support of this work are held in a private repository. The information included in this section is for general awareness. 
+> 
+> [![TG113Ped][TG113Ped.js]][TG113Ped-url]
+
 
 ### Primary Script
 `input_generator_phits.m`
@@ -177,3 +183,5 @@ Wyatt W. Smither - wyattsmither@ufl.edu
 [MATLAB-url]: https://www.mathworks.com/products/matlab.html
 [P143.js]: https://img.shields.io/badge/Publication_143-red
 [P143-url]: https://www.icrp.org/publication.asp?id=ICRP%20Publication%20143
+[TG113Ped.js]: https://img.shields.io/badge/ICRP_TG113_Private_Repository-62c342
+[TG113Ped-url]: https://github.com/wsmither17/ICRPTG113_ped_fluoro.git
