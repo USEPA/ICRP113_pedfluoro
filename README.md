@@ -24,9 +24,9 @@
         <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#input-files">Input Files</a></li>
         <li><a href="#output-files">Output Files</a></li>
-        <li><a href="quality-assurance-efforts">Quality Assurance Efforts</a></li>
+        <li><a href="#quality-assurance-efforts">Quality Assurance Efforts</a></li>
       </ul>
-    <li><a href="#contacts">Contact</a></li>
+    <li><a href="#contacts">Contacts</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
