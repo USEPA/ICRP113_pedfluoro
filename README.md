@@ -100,7 +100,9 @@ The ICRP paediatric computational reference phantoms, as published in ICRP Publi
 > [!NOTE]
 > The codes developed in support of this work are held in a private repository. The information included in this section is for general awareness. 
 > 
-> [![TG113Ped][TG113Ped.js]][TG113Ped-url]
+> [![Static Badge](https://img.shields.io/badge/ICRP-TG113_Private_Repository-62c342?style=flat&logo=github)](https://github.com/wsmither17/ICRPTG113_ped_fluoro.git)
+
+
 
 
 ### Primary Script
