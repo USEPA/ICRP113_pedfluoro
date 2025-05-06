@@ -6,6 +6,11 @@
 > [!CAUTION]
 > **Information contained in this repository is considered raw, partial and unvalidated. Material is DRAFT/DELIBERATIVE.**
 
+> [!NOTE]
+> The codes developed in support of this work are held in a private repository.
+> 
+> [![Static Badge](https://img.shields.io/badge/ICRP-TG113_Private_Repository-62c342?style=flat&logo=github)](https://github.com/wsmither17/ICRPTG113_ped_fluoro.git)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
