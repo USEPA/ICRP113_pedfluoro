@@ -80,6 +80,7 @@ Members of the paediatric diagnostic fluoroscopy sub-group:
 - Wesley Bolch, University of Florida
 - Kimberly Applegate, ICRP
 - Wyatt Smither, University of Florida
+- Daiki Satoh, JAEA
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
