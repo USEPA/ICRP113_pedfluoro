@@ -74,13 +74,14 @@ When patient-specific organ doses (single gender) are weighted by radiation and 
 
 This repository contains the electronic supplements of dose coefficients resulting from the pediatric fluoroscopy work stream of the Task Group 113. Additional details and history of the code development in support of this work are held in a private repository.
 
-Members of the paediatric diagnostic fluoroscopy sub-group:
-- David Borrego, US EPA
-- Emily Marshall, University of Florida
-- Wesley Bolch, University of Florida
+Members of the paediatric diagnostic fluoroscopy sub-group (alphabetically):
 - Kimberly Applegate, ICRP
-- Wyatt Smither, University of Florida
+- Wesley Bolch, University of Florida
+- David Borrego, US EPA
+- Megan MacDonald, US EPA
+- Emily Marshall, University of Florida
 - Daiki Satoh, JAEA
+- Wyatt Smither, University of Florida
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
